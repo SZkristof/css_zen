@@ -1,0 +1,105 @@
+body {
+    font-family: 'Trocchi';
+    background-color: lightgray;
+}
+
+p {
+    color: brown;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellowgreen;
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+h2 {
+  animation: blinker 2s linear infinite;
+  text-align: center;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#zen-summary {
+    text-align: center;
+    color: papayawhip;
+    font-size: 15px;
+    text-shadow: 1px 1px black;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#zen-preamble {
+    border: 3px solid black;
+    text-align: left;
+    line-height: 80%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.explanation {
+    border: 3px solid black;
+    text-align: right;
+    line-height: 90%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.participation {
+    border: 3px solid black;
+    text-align: left;
+    line-height: 90%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.benefits {
+    border: 3px solid black;
+    text-align: right;
+    line-height: 90%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.requirements {
+    border: 3px solid black;
+    text-align: left;
+    line-height: 90%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#zen-intro {
+    border: 10px solid yellow;
+    text-align: center;
+}
+
+#design-selection a:hover {
+    background-color: purple;
+}
+
+.sidebar {
+    border: 3px solid black;
+    text-align: left;
+    line-height: 90%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    background-color: yellow;
+}
